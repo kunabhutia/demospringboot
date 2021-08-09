@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PrimeNumberController {
 	
 	@RequestMapping("/{id}")
-    public ResponseEntity<Data> getEmployees(@PathVariable("id") int id)
+    public ResponseEntity<Data> getPrime(@PathVariable("id") int id)
     {
     	Data data=new Data();
 		data.setInitial(id);
